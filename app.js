@@ -18,7 +18,7 @@ function loadViewer(i) {
     viewer = pannellum.viewer('viewer', {
         type: "equirectangular",
         panorama: images[i].src,
-        autoRotate: 15,
+        autoRotate: 5,
         autoRotateInactivityDelay: 1000,
         mouseZoom: true,
         autoLoad: true // Prevents having to click "Load" manually for every image
